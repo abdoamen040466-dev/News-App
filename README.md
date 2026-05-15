@@ -24,7 +24,7 @@ Built with a clean and responsive user interface using modern front-end technolo
 ## 📸 Project Preview
 
 <p align="center">
-  <img src="assets/images/preview.png" width="100%">
+  <img src="assets/img/preview.png" width="100%">
 </p>
 
 ## 📂 Project Structure
