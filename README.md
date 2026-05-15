@@ -23,7 +23,9 @@ Built with a clean and responsive user interface using modern front-end technolo
 
 ## 📸 Project Preview
 
-![News App Preview](assets/images/preview.png)
+<p align="center">
+  <img src="assets/images/preview.png" width="100%">
+</p>
 
 ## 📂 Project Structure
 
