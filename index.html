@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/CSS/all.min.css" />
+    <link rel="stylesheet" href="assets/CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/CSS/main.css" />
+  </head>
+  <body>
+    <header class="bg-dark">
+      <div
+        class="container text-white d-flex justify-content-between align-items-center p-2"
+      >
+        <h1 class="m-0 h3">
+          <a href="./index.html">News</a>
+        </h1>
+        <nav>
+          <ul class="list-unstyled d-flex gap-2 m-0">
+            <li>
+              <a class="active" data-country="eg">Egypt</a>
+            </li>
+            <li>
+              <a data-country="us">United States</a>
+            </li>
+            <li>
+              <a data-country="jp">Japan</a>
+            </li>
+            <li>
+              <a data-country="fr">France</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- <i class="fa-solid fa-chevron-down"></i> -->
+      </div>
+    </header>
+
+    <main>
+      <aside class="text-white">
+        <nav>
+          <ul class="list-unstyled p-3">
+            <li>
+              <a class="active" data-category="general">General</a>
+            </li>
+            <li>
+              <a data-category="business">Business</a>
+            </li>
+            <li>
+              <a data-category="sports">Sports</a>
+            </li>
+            <li>
+              <a data-category="health">Health</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <section class="p-3 data">
+        <div class="container p-0">
+          <div class="row g-3 news-container">
+          </div>
+        </div>
+      </section>
+      <section class="error d-none d-flex">
+        <h2 class="h1 fs-1 d-inline-block mx-auto mt-5 bg-secondary text-white p-3">You've reached the daily limit. Please come back later.</h2>
+      </section>
+    </main>
+
+    <script src="assets/JS/index.js"></script>
+  </body>
+</html>
