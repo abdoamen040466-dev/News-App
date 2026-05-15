@@ -23,7 +23,7 @@ Built with a clean and responsive user interface using modern front-end technolo
 
 ## 📸 Project Preview
 
-<img width="100%" alt="News App Preview" src="https://via.placeholder.com/1200x600?text=News+App+Preview">
+![News App Preview](assets/images/preview.png)
 
 ## 📂 Project Structure
 
